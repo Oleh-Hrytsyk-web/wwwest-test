@@ -1,0 +1,28 @@
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 2;
+
+    &.active {
+        .line {
+            background-color: #fff;
+        }
+    }
+}
+
+.line {
+    width: 20px;
+    height: 2px;
+    background-color: #120F0D;
+    margin-bottom: 5px;
+    border-radius: 2px;
+
+    &.active {
+        background-color: #fff;
+    }
+}
+
+.no-scroll {
+    overflow: hidden;
+}

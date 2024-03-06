@@ -1,0 +1,116 @@
+.advantages {
+    padding: 120px 0 100px 0;
+
+    .title {
+        font-size: 38px;
+        margin-bottom: 40px;
+    }
+
+    .advantage {
+        padding: 28px 34px;
+        border-right: 1px solid #D1D5DB;
+
+        &:last-child {
+            border-right: none
+        }
+
+        .img {
+            color: #076E36;
+            padding: 6px 0 28px 0;
+        }
+
+        h4 {
+            font-size: 17px;
+        }
+    }
+
+    .description {
+        font-size: 17px;
+        padding-top: 142px;
+
+        p {
+            margin: 0;
+        }
+
+        h3 {
+            font-size: 28px;
+
+        }
+
+        h6 {
+            padding: 16px 0 4px 0;
+            line-height: 1.5;
+        }
+
+        ul {
+            list-style: square;
+
+            li::marker {
+                color: #A7928A;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width:767px) {
+    .advantages {
+        padding: 40px 0 40px 0;
+
+        .title {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .advantage {
+            padding: 10px 0px;
+            border-right: none;
+
+            border-bottom: 1px solid #D1D5DB;
+
+            &:last-child {
+                border-right: none
+            }
+
+            .img {
+                color: #076E36;
+                padding: 6px 0 28px 0;
+            }
+
+            h4 {
+                font-weight: 600;
+                font-size: 14px;
+            }
+
+            .description {
+                font-size: 14px;
+            }
+        }
+
+        .description {
+            font-size: 14px;
+            padding-top: 72px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            p {
+                margin: 0;
+            }
+
+            h3 {
+                font-size: 22px;
+            }
+
+            h6 {
+                padding: 8px 0 4px 0;
+                line-height: 1.2;
+            }
+
+            ul {
+                list-style: square;
+                max-width: 300px;
+            }
+        }
+    }
+}

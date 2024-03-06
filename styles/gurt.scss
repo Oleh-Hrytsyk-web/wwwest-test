@@ -1,0 +1,63 @@
+
+.gurt {
+    background-color: #F2FFF8;
+    padding: 117px 0;
+
+    .gurtImage {
+        border-radius: 8px;
+        overflow: hidden;
+        max-height: 415px;
+
+        img {
+            object-fit: contain;
+        }
+    }
+
+    nav {
+        font-size: 17px;
+
+        a {
+            text-decoration: none;
+            color: #076E36;
+            font-weight: 500;
+        }
+    }
+
+    .title {
+        font-size: 38px;
+        margin-bottom: 12px;
+    }
+}
+
+
+@media (max-width:767px) {
+    .gurt {
+        padding: 48px 0 20px 0;
+
+        .gurtImage {
+            max-height: 200px;
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+
+            margin-bottom: 22px;
+        }
+
+        .breadcrumb-item {
+            font-size: 14px;
+        }
+
+        .title {
+            font-size: 30px;
+            margin-bottom: 12px;
+            text-align: center;
+        }
+
+        .description {
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+}

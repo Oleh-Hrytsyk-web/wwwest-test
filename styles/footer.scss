@@ -1,0 +1,52 @@
+.footer {
+    padding: 55px 0;
+
+    .logo {
+        width: 300px;
+    }
+
+    .logo-wrapper {
+        margin-bottom: 40px;
+    }
+
+    .description,
+    .copyrigth {
+        font-size: 14px;
+        font-weight: lighter;
+    }
+
+    .description {
+        margin-right: 60px;
+    }
+
+    .copyrigth {
+        padding-top: 24px;
+    }
+
+    ul>li {
+        margin-bottom: 8px;
+    }
+
+    .list-head-title {
+        color: #9CA3AF;
+    }
+}
+
+@media (max-width:767px) {
+    .footer {
+        padding: 25px 0;
+        .logo {
+            width: 150px;
+        }
+
+        .logo-wrapper {
+            margin-bottom: 30px;
+        }
+        font-size: 14px;
+
+        ul>li {
+            margin-bottom: 4px;
+        }
+    
+    }
+}
